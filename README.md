@@ -6,10 +6,19 @@ This shows a list of employees.  This list can also be searched by name or surna
 When you click on an employee it will take you to another page that has more info on the employee.
 
 Tech used:
+
+
 mysql for the db
+
+
 node express for the backend server
+
+
 angularjs for the front end
+
+
 deployed to digitalocean
+
 
 Filesystem:
 iocoserver : This runs the middleware to connect to the db
