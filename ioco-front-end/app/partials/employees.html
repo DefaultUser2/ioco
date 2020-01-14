@@ -1,0 +1,27 @@
+<input type="text" ng-model="nameFilter" placeholder="Search by name or surname..."/>
+<table style="margin:20px" class="highlight">
+<thead>
+  <tr><th colspan="5">IOCO EMPLOYEES</th></tr>
+</thead>
+<tbody>
+  <tr>
+    <th>Emp Id</th>
+    <th>Person Id</th>
+    <th>Emp Num</th>
+    <th>Name</th>
+    <th>Surname</th>
+    </tr>
+  <tr ng-repeat="employee in employeeList | filter: searchFilter" ng-click="goToLink(employee.EmployeeId)">
+      
+    <td>
+
+	  	{{employee.EmployeeId}}
+
+	</td>
+  <td>{{employee.PersonId}}</td>
+    <td>{{employee.EmployeeNum}}</td>
+      <td>{{employee.FirstName}}</td>
+      <td>{{employee.LastName}}<td>
+  </tr>
+</tbody>
+</table>
