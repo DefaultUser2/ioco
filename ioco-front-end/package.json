@@ -8,7 +8,7 @@
     "devDependencies": {
         "bower": "^1.8.8",
         "http-server": "^0.12.1",
-        "karma": "~0.10",
+        "karma": "~6.4",
         "karma-junit-reporter": "^0.2.2",
         "protractor": "~0.20.1",
         "shelljs": "^0.2.6"
